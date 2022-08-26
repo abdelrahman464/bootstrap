@@ -294,7 +294,7 @@ body {
     color: var(--yellow-color);
 }
 
-@media(min-width:767px) {
+@media(max-width:767px) {
     .subscripe input[type="submit"] {
         margin-top: 25px;
     }
