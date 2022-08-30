@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:ital,wght@0,700;1,300;1,400&family=Roboto:wght@100;300;400;700&display=swap">
-    <title>ARTSH</title>
+    <title>Document</title>
 </head>
 
 <body>
@@ -129,52 +129,52 @@
                 <h2>We Make This</h2>
                 <p class="text-black-50">Prepare to be Amazed</p>
             </div>
-            <ul class="list-unstyled d-flex justify-content-center mt-5 mb-5">
-                <li class="active rounded-pill">All</li>
-                <li>Design</li>
-                <li>Code</li>
-                <li>Photography</li>
-                <li>App</li>
+            <ul class="swithcat list-unstyled d-flex justify-content-center mt-5 mb-5">
+                <li class="active rounded-pill" data-cat=".all">All</li>
+                <li data-cat=".desing">Design</li>
+                <li data-cat=".code">Code</li>
+                <li data-cat=".photography">Photography</li>
+                <li data-cat=".app">App</li>
             </ul>
             <div class="row">
                 <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="box mb-3 ng-whit" data-work="Application">
-                        <img src="imgs/gallery-01.png" class="img-fluid">
+                        <img src="imgs/gallery-01.png" class="img-fluid all photography">
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="box mb-3 ng-whit" data-work="Application">
-                        <img src="imgs/gallery-02.png" class="img-fluid">
+                        <img src="imgs/gallery-02.png" class="img-fluid all desing">
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="box mb-3 ng-whit" data-work="Application">
-                        <img src="imgs/gallery-03.jpg" class="img-fluid">
+                        <img src="imgs/gallery-03.jpg" class="img-fluid all photography">
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="box mb-3 ng-whit" data-work="Application">
-                        <img src="imgs/gallery-04.png" class="img-fluid">
+                        <img src="imgs/gallery-04.png" class="img-fluid all code">
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="box mb-3 ng-whit" data-work="Application">
-                        <img src="imgs/gallery-05.jpg" class="img-fluid">
+                        <img src="imgs/gallery-05.jpg" class="img-fluid all desing">
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="box mb-3 ng-whit" data-work="Application">
-                        <img src="imgs/gallery-06.png" class="img-fluid">
+                        <img src="imgs/gallery-06.png" class="img-fluid all code">
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="box mb-3 ng-whit" data-work="Application">
-                        <img src="imgs/gallery-07.jpg" class="img-fluid">
+                        <img src="imgs/gallery-07.jpg" class="img-fluid all app">
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="box mb-3 ng-whit" data-work="Application">
-                        <img src="imgs/gallery-08.jpg" class="img-fluid">
+                        <img src="imgs/gallery-08.jpg" class="img-fluid all app">
                     </div>
                 </div>
             </div>
@@ -367,7 +367,7 @@
     <!-- end subsucripe -->
 
     <!-- start footer -->
-    <div class="footer pt-5 pb-5 text-white-50 text-md-start  text-sm-center">
+    <div class="footer pt-5 pb-5 text-white-50 text-md-start text-sm-center">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-4">
@@ -404,11 +404,12 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4 ">
                     <div class="contact">
                         <h5 class="text-light mb-4">Contact Us</h5>
                         <p class="mb-5 lh-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, nobis.</p>
                         <a href="#" class="btn rounded-pill main-btn w-100">Abdelrahman@gmail.com</a>
+
                         <ul class="list-unstyled mt-5 d-flex gap-3 justify-content-center">
                             <li>
                                 <a href="#" class="d-block text-light">
@@ -447,6 +448,7 @@
     <script src=" js/bootstrap.bundle.min.js "></script>
     <script src="js/jquery-3.6.0.min.js "></script>
     <script src="js/all.min.js "></script>
+    <script src="js/master.js"></script>
 </body>
 
 </html>
